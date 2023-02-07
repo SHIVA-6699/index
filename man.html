@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>ENTER A NUMBER:-</label>
+     <input type="text" id="g1"  >
+     <button type="submit" onclick="add()" style="background-color: aqua;"> GET TABLE</button>
+     <div id="result"></div>
+     <script>
+        function add()
+        {
+           var nums=1;
+           while(nums!=0)
+           {
+            let num=document.getElementById("g1").value;
+          
+            {
+            for(let i=1;i<21;i++)
+            {
+                result=result+"<p>"+num+"*"+i+"="+num*i+"</p>";
+
+            }
+            document.getElementById('result').innerHTML=result;
+            
+           
+            
+        }
+        nums-=1;
+        }
+        
+    }
+     </script>
+
+
+</body>
+</html>

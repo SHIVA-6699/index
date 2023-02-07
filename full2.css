@@ -1,0 +1,52 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+body
+{
+    background-image: url('math2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 95%;
+    align-items: center;
+}
+
+.map1
+{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.map2
+{
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.shva
+{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.id1
+{
+    top: 40%;
+    left: 41%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.id2
+{
+    top: 45%;
+    left: 41%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
